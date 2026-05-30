@@ -16,7 +16,7 @@ import {
 // initialize server
 const server = http.createServer();
 const wsServer = new WebSocketServer({ server });
-const port = process.env.SERVER_PORT || 8000;
+const port = process.env.PORT || process.env.SERVER_PORT || 8000;
 
 // connect to Redis
 const REDIS_BITFIELD_KEY = "board";

@@ -1,5 +1,5 @@
 import { connect } from "mongoose";
-const uri = process.env.DB_URL || "mongodb://localhost:27017/3dplace";
+const uri = process.env.MONGO_URL || process.env.DB_URL || "mongodb://localhost:27017/3dplace";
 
 const dbConnect = async () => {
   try {
