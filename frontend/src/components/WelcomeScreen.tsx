@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import logo from "../assets/penn_place_logo.png";
-import CountdownTimer from "./CountdownTimer";
 
 function WelcomeScreen({ onSubmit }: any) {
   const [username, setUsername] = useState("");

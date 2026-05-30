@@ -8,7 +8,7 @@ import {
   VOXEL_SIZE,
 } from "../helpers/Constants";
 import { MutableRefObject } from "react";
-import { worldToGridCoordinates } from "../helpers/ChangeCoords";
+import { worldToGridCoordinates } from "../helpers/changeCoords";
 
 export function createScene(
   scene: THREE.Scene,

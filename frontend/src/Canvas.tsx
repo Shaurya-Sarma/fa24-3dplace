@@ -15,7 +15,7 @@ import {
   SPAM_MESSAGE,
   VOXEL_SIZE,
 } from "./helpers/Constants.ts";
-import { gridToWorldCoordinates } from "./helpers/ChangeCoords.ts";
+import { gridToWorldCoordinates } from "./helpers/changeCoords.ts";
 import { QuickGuide } from "./components/QuickGuide.tsx";
 import { FeedbackForm } from "./components/FeedbackForm.tsx";
 import { useSnackbar } from "notistack";
